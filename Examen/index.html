@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CV version 2 with Bootstrap</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Load Bootstap CSS -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="container-fluid bg-warning">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myMenu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="#">Me</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myMenu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#who">WHO</a></li>
+                            <li><a href="#what">WHAT</a></li>
+                            <li><a href="#where">WHERE</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Main Picture -->
+        <div class="container-fluid bg-danger text-center main-picture" id="who">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2">
+                    <h1 class="first-h1"><mark>This</mark> is <small>me</small></h1>
+                </div>
+                <div class="col-md-4 col-md-offset-2">
+                    <h1 class="second-h1"><mark>Find</mark> about <small>me</small></h1>
+                </div>              
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <img class="img-circle img-responsive center-block" alt="This is my picture" src="img/bird.jpg">                                
+                </div>
+            </div>
+        </div>
+        <!-- About Me -->
+        <div class="container-fluid bg-info about-me" id="what">      
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-info bg-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span>Text Inline-Block</span> Sed eu commodo ex. Integer id nisl finibus, semper nisi pellentesque, ultrices diam. Praesent consectetur, neque et maximus tincidunt, lorem eros iaculis lorem, ut imperdiet erat ipsum luctus augue. Sed vel nunc sit amet nibh interdum auctor mattis nec urna. Nam turpis orci, tincidunt sit amet faucibus at, iaculis quis diam. Cras imperdiet commodo purus in sollicitudin. Proin et enim enim. Cras feugiat magna vel lectus vehicula, sed tristique augue iaculis. Suspendisse elit dui, porttitor vitae bibendum at, facilisis sit amet enim. Nam pulvinar quam eu pellentes"que accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="table-me">
+                            <div class="row-me">
+                                <div class="cell">
+                                    <a class="btn btn-default btn-lg" href="#">
+                                        Cool Button
+                                        <span class="badge"><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+                                    </a>
+                                </div>
+                                <div class="cell">
+                                    <a class="btn btn-danger btn-lg" href="#">Cool Button</a>
+                                </div>
+                            </div>
+                            <div class="row-me">
+                                <div class="cell">
+                                    <a class="btn btn-success btn-lg" href="#">Cool Button</a>
+                                </div>
+                                <div class="cell">
+                                    <div class="dropdown">
+                                        <button class="btn btn-warning dropdown-toggle btn-lg" type="button" data-toggle="dropdown" id="dropdownMenu1" aria-haspopup="true" aria-expanded="true">
+                                            Dropdown
+                                            <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">Separated link</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <table class="table table-striped table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th><span class="label label-danger">What I Like</span></th>
+                                    <th><span class="label label-danger">What I do not Like</span></th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th><span class="label label-primary">What I Like</span></th>
+                                    <th><span class="label label-primary">What I do not Like</span></th>
+                                </tr>
+                            </tfoot>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="badge">
+                                            <i class="fa fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Reading 
+                                    </td>
+                                    <td>
+                                        <span class="badge">
+                                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                            Facebook
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="alert alert-info">
+                                            <button class="close" data-dismiss="alert">
+                                                <i class="fa fa-times"></i>
+                                            </button>
+                                            Helping
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="alert alert-warning">
+                                            <button class="close" data-dismiss="alert">
+                                                <i class="fa fa-times-circle"></i>
+                                            </button>
+                                            Wasting Time
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Running</td>
+                                    <td>Shopping</td>
+                                </tr>                              
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Skills -->
+        <div class="container-fluid my-skills">
+            <div class="row">
+                <div class="col-sm-6">
+                    <ul class="list-group visible-xs">
+                        <li class="list-group-item list-group-item-info">
+                            <div class="progress">                       
+                                <div class="progress-bar progress-bar-danger skill-bootstrap" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                    BOOTSTRAP
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item list-group-item-warning">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped skill-html active">
+                                    HTML
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="list-group hidden-sm">
+                        <li class="list-group-item list-group-item-info">
+                            <div class="progress">                       
+                                <div class="progress-bar progress-bar-danger skill-bootstrap" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                    BOOTSTRAP
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item list-group-item-warning">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped skill-html active">
+                                    HTML
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="container-fluid bg-warning footer-me" id="where">
+            <hr />
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#address-home" data-toggle="tab"><span class="badge">Address Home</span></a></li>
+                <li><a href="#address-school" data-toggle="tab"><span class="badge">Address School</span></a></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade active in" id="address-home">
+                    <u><b>Address Home</b></u>
+                </div>
+                <div class="tab-pane fade" id="address-school">
+                    <br />
+                    <br />
+                    Str. Nufărului nr. 87 <br />
+                    410597 Oradea, ROMÂNIA <br />
+                    Tel./Fax: +40 259.426.692 <br />
+                    Email: contact@emanuel.ro <br />
+                </div>
+            </div>
+        </div>
+        <div class="pos-master">
+            <div class="pos1 bg-warning"></div>
+            <div class="pos2 bg-danger"></div>
+            <div class="pos3 bg-warning"></div>
+            <div class="pos4 bg-danger"></div>
+        </div>
+        <div class="big-space"></div>
+
+        <!-- Load Bootstrap JS -->      
+        <script src="bootstrap/js/jquery-3.2.1.min.js"></script> 
+        <script src="bootstrap/js/bootstrap.min.js"></script> 
+    </body>
+</html>
